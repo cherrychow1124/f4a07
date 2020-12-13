@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+*{box-sizing: border-box}
+body{
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	width: 1000px;
+	margin:auto;
+}
+header{
+	background-color: #ddc2f2;
+	color: white;
+	padding: 5px;
+	text-align: center;
+	
+}
+nav{
+	background-color: rgb(141, 170, 250);
+	text-align: center;font-size: 18px;
+	
+}
+nav a{
+	display: inline-block;
+	background-color: rgb(141, 170, 250);
+	color:rgb(250, 186, 247);
+	padding: 5px;
+}
+nav a:hover{background-color: rgb(193, 235, 255);
+color:rgb(158, 14, 241);}
+div{display: block;
+	background-color: rgb(255, 205, 240);
+	float:left;
+	width: 100px;
+	height:500px;
+	
+}
+article{
+	background-color:#e2edf8;
+	width: 800px;
+	height:500px;
+	float:left;
+	padding:5px;
+	font-size: 23px;
+	text-align: justify;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+img{width:400px;
+	height:400px;
+	align-content: center;
+	overflow: hidden;
+text-align: center;}
+footer{font-size: 18px;
+	display:inline-block;
+	background-color: #c1f8cf;
+	color:white;
+	width:100%;
+	padding:5px;
+	text-align: center;
+	
+}
+footer a{
+	display: inline-block;
+	padding: 5px;
+	color:rgb(17, 248, 217);
+	
+}
+a:hover{background-color: rgb(225, 193, 255);
+	color:white;padding:5px;}
